@@ -1,0 +1,92 @@
+
+body {
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 18%;
+    height: 450px;
+    padding-left: 16px;
+    border-radius: 10px;
+}
+
+#QR-code {
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 10px;
+
+}
+
+h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.30rem;
+    width: 95%;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 0.90rem;
+    text-align: center;
+    width: 93%;
+}
+
+.attribution {
+    font-size: 11px;
+    margin-top: 50px;
+    text-align: center;
+}
+#attribution{
+margin-left: 50px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+
+}
+
+@media (max-width: 376px) {
+    .container {
+       height: 460px;
+        width: 80%;
+       margin-left: 25px;
+   }
+    p {
+       font-size: 0.95rem;
+      }
+      #attribution{
+    position: relative;
+    right: 40px;
+        }
+}
+
+@media (min-width: 377px) and (max-width: 751px) {
+    .container {
+       height: 510px;
+        width: 40%;
+      
+   }
+
+   h3{
+    font-size: 1.50rem;
+   }
+    p {
+       font-size: 1rem;
+      }
+      #attribution{
+    position: relative;
+    right: 40px;
+        }
+}
